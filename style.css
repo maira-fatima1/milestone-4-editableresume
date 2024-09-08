@@ -1,0 +1,113 @@
+/* body section */
+body {
+font-family: 'Times New Roman', Times, serif;
+margin: 20px;
+padding: 0;
+background-color: lightgray;
+}
+
+/* label Section */
+label{
+    display:block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 1.25rem;
+    margin-top: 10px;
+    font-weight: bold;
+    
+}
+
+/* Input , Textarea Section */
+input, textarea{
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    box-sizing: border-box;     
+}
+
+input:hover,textarea:hover{
+    border-color: #0056b3;
+    box-shadow:0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* h1 Section */
+h1{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    text-decoration: underline;
+    text-shadow:2px 2px 4px rgba(7, 156, 205, 0.5);     
+}
+
+/* Form Section */
+form{
+    max-width: 600px;
+    margin: auto;
+    background-color:lightgray;
+    box-shadow: 0 4px  8px  rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Fieldset Section */
+fieldset{
+    border: 2px  solid rgba(41, 111, 215, 0.896);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:rgba(212, 210, 221, 0.645);
+}
+
+/* Legend Section */
+legend {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: left;
+    text-shadow:2px 2px 4px rgba(7, 156, 205, 0.5);    
+}
+
+/* Button Section */
+button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background:linear-gradient(to right ,#4a6baf, #6a8bd7) ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+   transition: 0.3s ease, transform 0.3s ease;
+}
+button:hover{
+    background: linear-gradient(to right , #3a5f9e, #5a7bba);
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3498bd;
+    border-radius: 8px;
+    background-color:lightgray;
+    box-shadow: 0 4px  8px  rgba(0, 0, 0, 0.7);
+}
+
+#resumeOutput h2{
+    color: #2c3e50;
+}
+/* Profile Picture */
+.profilePicture{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #3498bd;
+    box-shadow: 0 4px  8px  rgba(11, 7, 211, 0.5);
+    border-radius: 500px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
